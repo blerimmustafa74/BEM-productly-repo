@@ -1,0 +1,236 @@
+.btn{
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    background: #FF9900;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn--white{
+    background-color: #fff;
+    border: 1px solid #BCD0E5;
+    color: #173A56;
+
+}
+h1{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 44px;
+    color: #2F281E;
+}
+h2{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 36px;
+    color: #2F281E;
+}
+h4{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    color: #2F281E;
+}
+
+h6{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+}
+.h6--bold{
+    font-weight: bold;
+
+}
+p{
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+.main{
+    width: 1121px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 40px;
+}
+.header .nav{
+    display: flex;
+}
+
+.header .nav .nav__link{
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: Poppins;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
+}
+.header .account .account__item{
+    display: inline-block;
+}
+.header .account .account__item:first-child{
+    margin-right: 10px;
+}
+.header .logo{
+    margin-right: auto;
+}
+
+.hero{
+    display: flex;
+    margin-top: 50px;
+
+}
+.hero .hero__items{
+    width: 50%;
+}
+.hero .hero__items h1{
+    margin-bottom: 30px;
+}
+.hero .hero__items p{
+    margin-bottom: 45px;
+    width: 80%;
+}
+.hero .hero__items .hero__link{
+    color: #FF9900;
+    margin-left: 30px;
+}
+.hero .hero__items img{
+   width: 100%;
+}
+.tools{
+    margin-top: 127px;
+    margin-bottom: 103px;
+}
+.tools .tools__heading{
+    text-align: center;
+    margin-bottom: 54px;
+}
+.tools .tools__cards{
+    display: flex;
+    margin-bottom: 34px;
+}
+.tools .tools__cards .tools__cards__inner img{
+    margin-bottom: 30px;
+}
+.tools .tools__cards .tools__cards__inner h4{
+    margin-bottom: 13px;
+}
+.tools .tools__button{
+    text-align: center;
+}
+
+
+.design{
+    display: flex;
+    margin-bottom: 101px;
+}
+.design .design__items{
+    width: 50%;
+}
+.design .design__items h6{
+    margin-bottom: 3px;
+}
+.design .design__items h2{
+    margin-bottom: 22px;
+}
+.design .design__items p{
+    margin-bottom: 30px;
+}
+.design .design__items .product__heading-6{
+    margin-bottom: 12px;
+}
+.design .design__items img{
+    width: 80%;
+    margin-left: 105px;
+}
+
+
+.product{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 104px;
+}
+.product .product__items{
+    width: 50%;
+}
+.product .product__items h6{
+    margin-bottom: 3px;
+}
+.product .product__items h2{
+    margin-bottom: 22px;
+}
+.product .product__items p{
+    margin-bottom: 30px;
+}
+.product .product__items .product__parts .product__part{
+    display: flex;
+}
+.product .product__items .product__parts .product__part p{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 70%;
+}
+.product .product__items .product__image{
+    width: 90%;
+}
+
+.marketers{
+    display: flex;
+    margin-bottom: 146px;
+}
+.marketers .marketers__items{
+    width: 50%;
+}
+.marketers .marketers__items h6{
+    margin-bottom: 3px;
+}
+.marketers .marketers__items h2{
+    margin-bottom: 22px;
+}
+.marketers .marketers__items p{
+    margin-bottom: 30px;
+}
+.marketers .marketers__items .product__heading-6{
+    margin-bottom: 12px;
+}
+.marketers .marketers__items img{
+    width: 80%;
+    margin-left: 105px;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 102px;
+    margin-bottom: 83px;
+}
+.footer .footer__item .footer__link{
+    text-decoration: none;
+    color: #544837;
+}
+.footer .footer__item{
+    padding-bottom: 10px;
+}
+.footer .footer__links{
+    margin-top: 40px;
+}
+.footer .footer__privacy{
+    margin-top: 40px;
+}
+.footer .footer__form {
+    margin-top: 20px;
+}
+.footer .footer__form input{
+    margin-bottom: 21px;
+}
